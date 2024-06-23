@@ -58,8 +58,7 @@ export default function App() {
   };
 
   const totalFeedback = good + neutral + bad;
-  const positiveFeedbackPercentage =
-    totalFeedback > 0 ? Math.round((good / totalFeedback) * 100) : 0;
+  const positiveFeedbackPercentage = Math.round((good / totalFeedback) * 100);
 
   return (
     <>
