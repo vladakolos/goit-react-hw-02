@@ -1,0 +1,22 @@
+.friendListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.friendListItem img {
+  margin-right: 10px;
+}
+
+.status {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
